@@ -1,0 +1,3 @@
+[Discription]
+character code is basic knowledge in CTF!
+read the characters in chall.txt!

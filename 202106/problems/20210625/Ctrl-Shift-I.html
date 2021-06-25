@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- HTML num char ref is great! Anyway, it's 1/3 of the flag: &#x6d;&#99;&#x74;&#x66;&#123;&#x44;&#x65;&#x76;&#x65;&#49;&#48;&#x70;&#x65;&#x72;&#95; -->
+	<!-- What, Is it broken? Hmmm, I think it would look better if it was displayed somewhere... -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ctrl-Shift-I</title>
+	<style>body{text-align:center;}header p{color:gray;}input{max-width:100%;border:none;margin:0.5rem 0.1rem;padding:0.5rem 1rem;border-radius:0.3rem;background:#f0f0f0;}input[type=text]{width:300px;}input[type=submit]{background-color:#84AD47;color:white;}input[type=submit]:hover{background-color:#6b8f36;}.element strong{background-color:black;color:white;padding:1rem 3rem;margin:1rem 3rem;}
+		
+		.gYMJno7t, .pkPn1goD, .lRuQAXh4, .HmaNuESt, .FV0QqJnJ, .oG4w35xl, .SKUjsXfL, .E5kt0u3h, .tKe8xchq, .QlbgrvBj {
+			display: none;
+		}
+	</style>
+	<script>
+		// Verify the flag is correct or not
+		function verify_flag() {
+			var flag = document.getElementById("verify").value;
+			var message = '';
+			var verify = false;
+			if (flag.substr(0, 5) !== "mctf{" || flag.slice(-1) !== "}") {
+				message = "Flag format is mctf{XXXX}";
+			} else if (flag.length !== 39) {
+				message = "Something is wrong"; 
+			}	else {
+				var _0x2515=['1111764hEjtvi','577XNMUqc','1533UwotXa','436913fKUlIL','1FlydND','628866kOxybD','2297636gQWyWC','8219WXFcAD','1IqFLUI','1SQgkpD','748937XWIPvY'];function _0x136f(_0xd893fb,_0x58bf02){_0xd893fb=_0xd893fb-0x150;var _0x25151c=_0x2515[_0xd893fb];return _0x25151c;}(function(_0x48cbbb,_0x43400b){var _0x45cb28=_0x136f;while(!![]){try{var _0x1e8880=parseInt(_0x45cb28(0x157))*-parseInt(_0x45cb28(0x156))+parseInt(_0x45cb28(0x15a))+-parseInt(_0x45cb28(0x155))+-parseInt(_0x45cb28(0x151))*-parseInt(_0x45cb28(0x153))+parseInt(_0x45cb28(0x159))*-parseInt(_0x45cb28(0x154))+-parseInt(_0x45cb28(0x158))*-parseInt(_0x45cb28(0x152))+parseInt(_0x45cb28(0x150));if(_0x1e8880===_0x43400b)break;else _0x48cbbb['push'](_0x48cbbb['shift']());}catch(_0x5b108a){_0x48cbbb['push'](_0x48cbbb['shift']());}}}(_0x2515,0x98ed8));var x=0x0,s=0x0,m=0x1,t;for(var i=0x0;i<0x27;++i){t=flag['charCodeAt'](i),x^=t*i%0x100,s=(s+t)%0x20,m=m*t%0x10001;}verify=x===0x89&&s===0x15&&m===0x6272;
+				if (!verify) {
+					message = 'Nice try!';
+				}
+			}
+
+			if (verify) {
+				alert("Correct!! :)\nCongratulations! Let's go submit the flag!");
+			} else {
+				alert("Incorrect. :(\n" + message);
+			}
+			return false;
+		}
+
+		// Return a part of the flag
+		function return_flag() {
+			//  You don't need to know what's in it, do you? 
+			var k=['W7JdICkoWR8G','W7RcGapcKCkF','aCoND0a6'];(function(Q,C){var D=function(R){while(--R){Q['push'](Q['shift']());}};D(++C);}(k,0x1*0x1e55+-0xac9+-0x11b7));var Q=function(C,D){C=C-(0x1*0x1e55+-0xac9+-0x138c);var R=k[C];if(Q['Kzhcpq']===undefined){var K=function(Y){var J='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=',L=String(Y)['replace'](/=+$/,'');var a='';for(var e=-0x1*0xf2c+0x1525*0x1+-0x5f9,G,b,V=-0x1*-0xa53+-0xa2b+-0x1*0x28;b=L['charAt'](V++);~b&&(G=e%(-0x1*0x1d70+0x1c08+0x16c)?G*(0xfeb*-0x1+0x3c1*-0x4+0x1f2f)+b:b,e++%(-0xa63*-0x3+0x1*0x1382+-0x32a7))?a+=String['fromCharCode'](0xfe*0x5+0xd4f*-0x2+0x78d*0x3&G>>(-(0x12ec+0x361+-0x1*0x164b)*e&0x112f+0x2a9*-0x7+-0x2*-0xbb)):-0x94*0x26+-0xb6b+-0x21*-0x103){b=J['indexOf'](b);}return a;};var p=function(Y,J){var L=[],a=0x78f+-0xf*-0x1b+-0x924,e,G='',b='';Y=K(Y);for(var k=-0xbef+0x1*0x24b0+-0x18c1,B=Y['length'];k<B;k++){b+='%'+('00'+Y['charCodeAt'](k)['toString'](-0x1890+0x2005+-0x765))['slice'](-(-0x20b7+-0x1*0x1966+0x3a1f));}Y=decodeURIComponent(b);var V;for(V=-0x177b+0x21e2+-0x1*0xa67;V<0x551*-0x3+0x1*0x6e5+-0x3*-0x35a;V++){L[V]=V;}for(V=0x52a+-0x103e+0xb14;V<-0x2*-0xa81+-0x21e5+0xde3;V++){a=(a+L[V]+J['charCodeAt'](V%J['length']))%(-0x22cd+0x1389+-0x56c*-0x3),e=L[V],L[V]=L[a],L[a]=e;}V=-0x4c5+0xfb5+-0xaf0,a=0x2338+0x1f*0x97+-0x3581;for(var X=0x16a3+-0x2bd+-0x13e6;X<Y['length'];X++){V=(V+(-0x1b7d+0x638+0x1*0x1546))%(0x17*-0xd+0x1*-0x189+0x3*0x13c),a=(a+L[V])%(0x16ad+0xbfc*0x3+-0x39a1),e=L[V],L[V]=L[a],L[a]=e,G+=String['fromCharCode'](Y['charCodeAt'](X)^L[(L[V]+L[a])%(-0xc4d+-0x8a8+-0x1*-0x15f5)]);}return G;};Q['AXYRfU']=p,Q['MXkTCz']={},Q['Kzhcpq']=!![];}var l=Q['MXkTCz'][C];return l===undefined?(Q['DiYRTP']===undefined&&(Q['DiYRTP']=!![]),R=Q['AXYRfU'](R,D),Q['MXkTCz'][C]=R):R=l,R;};var C=Q,D=Q,R=Q;
+			var flag = C('0x0','F4zW')+C('0x1','^O3O')+R('0x2','Xor9');
+			return "Great! Here is 2/3 of the flag: " + flag;
+		}
+		</script>
+</head>
+<body>
+	<header>
+		<h1>Ctrl-Shift-I</h1>
+		<p>Option-Cmd-I instead if you're using a Mac.</p>
+	</header>
+	<form onsubmit="return verify_flag()">
+		<input id="verify" type="text" placeholder="mctf{XXXX}" />
+		<input type="submit" value="Verify" />
+	</form>
+	<hr>
+	<strong>The flag seems to have fallen apart. Use your tools to find the correct flag!</strong><br>
+	<span style="color: gray;">* When you aren't sure if it's right flag, let's verify it!</span>
+
+	<p>Can you identify the following elements?</p>
+	<!-- 3/3 of the correct flags is hidden in that flag attribute. -->
+	<!-- Don't worry! There is really only one element on display. -->
+	<p class="element">
+		<strong class="oG4w35xl" flag="c74ec261}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="2a227a74}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="47fd7a8b}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="83bbf0af}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="b54e4fdd}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="60680c7a}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="77c550ea}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="e86640a0}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="10bb8384}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="700f741a}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="accaf604}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="511d357b}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="b08c0128}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="ffcb1fc1}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="a0fc546c}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="bc7478bb}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="64055ab5}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="3730c831}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="3a1e77bd}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="af84a5be}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="4c3332d1}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="4c27f350}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="0eebfa80}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="5e578aef}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="270457d6}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="6f4dbf0a}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="8ab5cbe6}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="0a3f6f5d}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="284c6ae7}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="46003ad2}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="db4a1da8}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="a3fddbff}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="30487cf7}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="8430500e}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="ba0456ba}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="b26615e8}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="e31cf0c2}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="0bc0602b}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="123e7f6b}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="e3642f7d}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="83bff60d}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="655a0cdf}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="45fa18fb}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="4254c62a}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="02caf67c}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="676fd88f}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="babb5b54}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="d5d12b1c}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="4bc48b20}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="101f23f2}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="638a4508}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="f6ffab82}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="8e338d7f}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="d7206802}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="7e58f73e}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="1771be1b}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="cc1f02a1}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="a32db600}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="4e32b68f}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="da302803}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="6e13a0fa}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="e4d8c246}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="77e4ee85}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="78bb48a4}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="a05be081}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="b4ed6437}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="674b2f20}">I'm only one!!</strong>
+		<strong class="FVOQqJnJ" flag="900d7001}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="662266d5}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="4fa56222}">I'm only one!!</strong>
+		<strong class="QlbgrvBj" flag="cd78bf75}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="3278667d}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="31ac268a}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="7e6b686b}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="1e83efb5}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="e8dbd564}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="f802e777}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="6176a18b}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="42305347}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="da66e700}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="73e23585}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="738d8634}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="dfda738a}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="e5e1d7bc}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="be206cf1}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="88668002}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="db750fa0}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="b1e85b73}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="f07af471}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="02bc31e6}">I'm only one!!</strong>
+		<strong class="SKUjsXfL" flag="d8185405}">I'm only one!!</strong>
+		<strong class="HmaNuESt" flag="f05ad37d}">I'm only one!!</strong>
+		<strong class="oG4w35xl" flag="e60d37ff}">I'm only one!!</strong>
+		<strong class="lRuQAXh4" flag="5d4db7ff}">I'm only one!!</strong>
+		<strong class="gYMJno7t" flag="72150b5d}">I'm only one!!</strong>
+		<strong class="FV0QqJnJ" flag="abd483d7}">I'm only one!!</strong>
+		<strong class="pkPn1goD" flag="a7718612}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="47260506}">I'm only one!!</strong>
+		<strong class="tKe8xchq" flag="7b322b53}">I'm only one!!</strong>
+		<strong class="E5kt0u3h" flag="fa00e74c}">I'm only one!!</strong>
+	</p>
+
+</body>
+</html>

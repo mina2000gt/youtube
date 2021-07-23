@@ -1,0 +1,35 @@
+> Tamura Yukari was 17-sai at that time.
+
+(当時田村ゆかりは17歳だった。)
+
+まず「当時」とはいつなのかを考える。
+zipファイルに記録されたファイルのタイムスタンプの2013年7月24日を採用する。
+
+田村ゆかりさんの生年月日は1976年2月27日(Wikipediaより)なので、
+この時生まれてから37年(十進数)である。
+
+「生まれてからx年」を「x歳」と表現すると仮定すると、
+「生まれてから37(十進数)年」で「17歳」なので、
+この「17歳」は30進数であると考えられる。
+
+これを踏まえ、zipファイルを展開すると出てくる flag.txt の内容
+
+13874d3sgkbr26l05oqj0qpp614de37kfg7dmhigeraeh1dr
+
+を30進数と解釈する。これは十進数にすると
+
+2949107987908456472731848316843182497955074277920610566869847717800317
+
+である。さらにこれを16進数にすると
+
+6d6374667b4e6f775f486f7269655f5975695f69735f31372d7361697d
+
+となる。これを文字列に変換すると
+
+mctf{Now_Horie_Yui_is_17-sai}
+
+となる。これがflagである。
+
+CyberChefでは以下のRecipeで flag.txt の内容からflagを得ることができる。
+
+https://gchq.github.io/CyberChef/#recipe=From_Base%2830%29To_Base%2816%29From_Hex%28%27Auto%27%29&input=MTM4NzRkM3Nna2JyMjZsMDVvcWowcXBwNjE0ZGUzN2tmZzdkbWhpZ2VyYWVoMWRy

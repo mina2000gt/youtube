@@ -1,0 +1,1 @@
+cat chall | base64 -d | base64 -d | base64 -d

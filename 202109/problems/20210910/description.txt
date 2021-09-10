@@ -1,0 +1,18 @@
+Do you know RSA?
+It needs mathmatical knowledge.
+If you can't understand it, please wait for a new video!!
+
+===Hint For You===
+main calculation:
+encryption:
+p = (some prime)
+q = (some prime)
+n = p*q
+e = (some value)
+m = (plain text)
+c = pow(m, e, n)
+
+decryption:
+phi = (p-1)*(q-1)
+d = pow(e, -1, phi)
+m = pow(c, d, n)

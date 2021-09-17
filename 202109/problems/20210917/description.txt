@@ -1,0 +1,10 @@
+# Mersenne
+
+Currently 4,096-bit RSA is considered as safe.
+Now I used over 65,536-bit "n" for RSA!
+Therefore it should be 16x safer!!
+
+-----------
+
+SHA-256 of the flag (for checking answer):
+f0235cc925a2c609b98a04e7e90e5bf5849d60d3bd0b258f67c80230c641c47e

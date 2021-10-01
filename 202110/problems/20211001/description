@@ -1,0 +1,12 @@
+This chall is encrypted PNG file.
+Find the key and decrypt it!
+key is 6 bytes long.
+
+After decryption, you'll find a object.
+UPPERCASE the object name (no space) and WRAP by mctf{}.
+That's a flag!
+
+SHA256 of flag.
+bfe924ccbe425b43ed8bc5d0351faad1fc1b68f3b1560908052d9e1531fdc7b0
+
+hash your flag in file A by "sha256sum A" and compare with this!

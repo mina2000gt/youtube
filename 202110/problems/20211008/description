@@ -1,0 +1,9 @@
+This challenge is in basic crypto style.
+encode.py outputs out.txt and both files are given.
+But in encode.py, flag is not written.
+Please recover the flag!
+
+SHA256 of flag:
+7840f06fa05ecfcaec7fc634d6b8097fd498e7eca72e650c3f235b4b380d8857
+
+hash your flag in file A by "sha256sum A" and compare with this!

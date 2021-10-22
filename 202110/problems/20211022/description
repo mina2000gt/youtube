@@ -1,0 +1,8 @@
+Do you know base64 variant?
+I learned about it last week.
+Please decode this chall.
+
+SHA256 of FLAG
+fddf7513ad2acbb99138d494c95e449ca8b09b719b54e6908bc0b0589216c0b6
+
+hash your flag in file A by "sha256sum A" and compare with this!

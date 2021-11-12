@@ -1,0 +1,7 @@
+I encrypted my flag with AES.
+Please decrypt it!
+
+SHA256 of FLAG
+8329a63cdf24578ab7b64c614dccd29f229a781c35894d835efbaaec0b90cb0d
+
+hash your flag in file A by "sha256sum A" and compare with this!

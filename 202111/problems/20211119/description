@@ -1,0 +1,8 @@
+I encrypted my flag with AES.
+But this time, key includes random value.
+Please decrypt it!
+
+SHA256 of FLAG
+84ec56b49eaf6ed66c1a43d388541f95403e82f9366d6cbe3403ac46f1232e26
+
+hash your flag in file A by "sha256sum A" and compare with this!

@@ -1,0 +1,7 @@
+I got a number.
+Please crack it and wrap it with "mctf{}".
+
+SHA256 of FLAG
+9cc5b11e505c14a7aa628812d954435130fb2b4049f8dd6417ac053b3958d368
+
+hash your flag in file A by "sha256sum A" and compare with this!
